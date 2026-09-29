@@ -6,11 +6,11 @@
 
 > Papers in which the loop that improves a system also changes the thing doing the improving.
 
-![Papers](https://img.shields.io/badge/papers-39-B31B1B?style=flat-square&logo=arxiv&logoColor=white)
+![Papers](https://img.shields.io/badge/papers-49-B31B1B?style=flat-square&logo=arxiv&logoColor=white)
 ![Groups](https://img.shields.io/badge/mechanisms-5-8A2BE2?style=flat-square&logo=bookstack&logoColor=white)
-![With code](https://img.shields.io/badge/with%20code-17-181717?style=flat-square&logo=github&logoColor=white)
+![With code](https://img.shields.io/badge/with%20code-19-181717?style=flat-square&logo=github&logoColor=white)
 ![Stars](https://img.shields.io/badge/repo%20stars-12k-F59E0B?style=flat-square&logo=starship&logoColor=white)
-![Daily Papers](https://img.shields.io/badge/%F0%9F%A4%97%20daily%20papers-25-FFD21E?style=flat-square)
+![Daily Papers](https://img.shields.io/badge/%F0%9F%A4%97%20daily%20papers-27-FFD21E?style=flat-square)
 [![License](https://img.shields.io/badge/license-CC%20BY%204.0-10B981?style=flat-square&logo=creativecommons&logoColor=white)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-2EA44F?style=flat-square&logo=git&logoColor=white)](#contributing)
 
@@ -23,11 +23,11 @@
 ## Contents
 
 - [🔥 News](#-news)
-- [🧬 Rewrites Its Own Code](#-rewrites-its-own-code) (10)
-- [♻️ Optimizes Its Own Optimizer](#-optimizes-its-own-optimizer) (12)
+- [🧬 Rewrites Its Own Code](#-rewrites-its-own-code) (14)
+- [♻️ Optimizes Its Own Optimizer](#-optimizes-its-own-optimizer) (15)
 - [🧩 Edits the Harness That Edits](#-edits-the-harness-that-edits) (4)
 - [🌱 Searches Over Its Own Designs](#-searches-over-its-own-designs) (4)
-- [♾️ Formal Self-Referential Machines](#-formal-self-referential-machines) (9)
+- [♾️ Formal Self-Referential Machines](#-formal-self-referential-machines) (12)
 - [🔗 Where the Rest of the Field Is](#-where-the-rest-of-the-field-is) (10)
 
 ---
@@ -52,6 +52,10 @@ The agent's working directory contains the agent, so an edit can land on the par
 - [MOSS](https://arxiv.org/abs/2605.22794), "Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems". ![arXiv](https://img.shields.io/badge/arXiv-2605.22794-B31B1B?style=flat-square) [![Code](https://img.shields.io/github/stars/hkgai-official/Moss?style=flat-square&logo=github&label=Code&color=181717)](https://github.com/hkgai-official/Moss) [![Daily Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2605.22794&query=%24.upvotes&label=%F0%9F%A4%97%20Daily&color=FFD21E&style=flat-square)](https://huggingface.co/papers/2605.22794)
 - [Bounded Recursive Self-Improvement](https://arxiv.org/abs/1312.6764). ![arXiv](https://img.shields.io/badge/arXiv-1312.6764-B31B1B?style=flat-square)
 - [Mendel Gödel Machine](https://arxiv.org/abs/2608.07645), "Recursive Self-Improving Coding Agents via Comparative Evolution". ![arXiv](https://img.shields.io/badge/arXiv-2608.07645-B31B1B?style=flat-square) [![Daily Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2608.07645&query=%24.upvotes&label=%F0%9F%A4%97%20Daily&color=FFD21E&style=flat-square)](https://huggingface.co/papers/2608.07645)
+- [Hyper Algorithm Design Agent](https://arxiv.org/abs/2609.35328), "Evolving Learnable Optimizer from Zero". ![arXiv](https://img.shields.io/badge/arXiv-2609.35328-B31B1B?style=flat-square) [![Code](https://img.shields.io/github/stars/MetaEvo/HADA-AAD?style=flat-square&logo=github&label=Code&color=181717)](https://github.com/MetaEvo/HADA-AAD)
+- [Self Improvement via Fast Tree-search](https://arxiv.org/abs/2609.19526). ![arXiv](https://img.shields.io/badge/arXiv-2609.19526-B31B1B?style=flat-square)
+- [Self-Modifying Lean Proof Agents with Verifier-Grounded Benchmark Coevolution](https://arxiv.org/abs/2607.17352). ![arXiv](https://img.shields.io/badge/arXiv-2607.17352-B31B1B?style=flat-square)
+- [Self-Programming Artificial Intelligence Using Code-Generating Language Models](https://arxiv.org/abs/2205.00167). ![arXiv](https://img.shields.io/badge/arXiv-2205.00167-B31B1B?style=flat-square) [![Daily Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2205.00167&query=%24.upvotes&label=%F0%9F%A4%97%20Daily&color=FFD21E&style=flat-square)](https://huggingface.co/papers/2205.00167)
 
 ---
 
@@ -67,10 +71,13 @@ The improvement is produced by a procedure, and that procedure is applied to its
 - [SePO](https://arxiv.org/abs/2606.04465), "Self-Evolving Prompt Agent for System Prompt Optimization". ![arXiv](https://img.shields.io/badge/arXiv-2606.04465-B31B1B?style=flat-square) [![Code](https://img.shields.io/github/stars/taowangcheng/SePO?style=flat-square&logo=github&label=Code&color=181717)](https://github.com/taowangcheng/SePO) [![Daily Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2606.04465&query=%24.upvotes&label=%F0%9F%A4%97%20Daily&color=FFD21E&style=flat-square)](https://huggingface.co/papers/2606.04465)
 - [MetaSkill-Evolve](https://arxiv.org/abs/2607.05297), "Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution". ![arXiv](https://img.shields.io/badge/arXiv-2607.05297-B31B1B?style=flat-square) [![Daily Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2607.05297&query=%24.upvotes&label=%F0%9F%A4%97%20Daily&color=FFD21E&style=flat-square)](https://huggingface.co/papers/2607.05297)
 - [Learning to Evolve](https://arxiv.org/abs/2604.20714), "A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization". ![arXiv](https://img.shields.io/badge/arXiv-2604.20714-B31B1B?style=flat-square)
+- [Escher-Loop](https://arxiv.org/abs/2604.23472), "Mutual Evolution by Closed-Loop Self-Referential Optimization". ![arXiv](https://img.shields.io/badge/arXiv-2604.23472-B31B1B?style=flat-square) [![Code](https://img.shields.io/github/stars/scaling-group/escher-loop?style=flat-square&logo=github&label=Code&color=181717)](https://github.com/scaling-group/escher-loop)
+- [Hypernetworks That Evolve Themselves](https://arxiv.org/abs/2512.16406). ![arXiv](https://img.shields.io/badge/arXiv-2512.16406-B31B1B?style=flat-square)
 - [Metalearning Continual Learning Algorithms](https://arxiv.org/abs/2312.00276). ![TMLR 2025](https://img.shields.io/badge/TMLR_2025-4B5563?style=flat-square) ![arXiv](https://img.shields.io/badge/arXiv-2312.00276-B31B1B?style=flat-square) [![Daily Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2312.00276&query=%24.upvotes&label=%F0%9F%A4%97%20Daily&color=FFD21E&style=flat-square)](https://huggingface.co/papers/2312.00276)
 - [Arbitrary Order Meta-Learning with Simple Population-Based Evolution](https://arxiv.org/abs/2303.09478). ![arXiv](https://img.shields.io/badge/arXiv-2303.09478-B31B1B?style=flat-square)
 - [Eliminating Meta Optimization Through Self-Referential Meta Learning](https://arxiv.org/abs/2212.14392). ![arXiv](https://img.shields.io/badge/arXiv-2212.14392-B31B1B?style=flat-square)
 - [A Modern Self-Referential Weight Matrix That Learns to Modify Itself](https://arxiv.org/abs/2202.05780). ![ICML 2022](https://img.shields.io/badge/ICML_2022-4B5563?style=flat-square) ![arXiv](https://img.shields.io/badge/arXiv-2202.05780-B31B1B?style=flat-square) [![Daily Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2202.05780&query=%24.upvotes&label=%F0%9F%A4%97%20Daily&color=FFD21E&style=flat-square)](https://huggingface.co/papers/2202.05780)
+- [Training Learned Optimizers with Randomly Initialized Learned Optimizers](https://arxiv.org/abs/2101.07367). ![arXiv](https://img.shields.io/badge/arXiv-2101.07367-B31B1B?style=flat-square)
 
 ---
 
@@ -106,7 +113,10 @@ Machines and theorems, where the question was first posed: what self-modificatio
 - [Performance of Bounded-Rational Agents With the Ability to Self-Modify](https://arxiv.org/abs/2011.06275). ![AAAI 2021](https://img.shields.io/badge/AAAI_2021-4B5563?style=flat-square) ![arXiv](https://img.shields.io/badge/arXiv-2011.06275-B31B1B?style=flat-square)
 - [A Formulation of Recursive Self-Improvement and Its Possible Efficiency](https://arxiv.org/abs/1805.06610). ![arXiv](https://img.shields.io/badge/arXiv-1805.06610-B31B1B?style=flat-square)
 - [Self-Modification of Policy and Utility Function in Rational Agents](https://arxiv.org/abs/1605.03142). ![arXiv](https://img.shields.io/badge/arXiv-1605.03142-B31B1B?style=flat-square)
+- [Generalized Agent Iteration](https://arxiv.org/abs/2609.13406), "One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement". ![arXiv](https://img.shields.io/badge/arXiv-2609.13406-B31B1B?style=flat-square) [![Daily Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2609.13406&query=%24.upvotes&label=%F0%9F%A4%97%20Daily&color=FFD21E&style=flat-square)](https://huggingface.co/papers/2609.13406)
+- [Rice's Theorem under Self-Modification](https://arxiv.org/abs/2609.11326), "Elevation Operators and a Normal Form". ![arXiv](https://img.shields.io/badge/arXiv-2609.11326-B31B1B?style=flat-square)
 - [The Unverifiability of Artificial General Intelligence (AGI) Alignment, Static and Dynamic: From Trakhtenbrot's Wall to the Safety-Generality Tension](https://arxiv.org/abs/2606.28639). ![arXiv](https://img.shields.io/badge/arXiv-2606.28639-B31B1B?style=flat-square)
+- [A mathematical theory of evolution for self-designing AIs](https://arxiv.org/abs/2604.05142). ![arXiv](https://img.shields.io/badge/arXiv-2604.05142-B31B1B?style=flat-square)
 - [What does a system modify when it modifies itself?](https://arxiv.org/abs/2603.27611). ![arXiv](https://img.shields.io/badge/arXiv-2603.27611-B31B1B?style=flat-square)
 - [SGM](https://arxiv.org/abs/2510.10232), "A Statistical Godel Machine for Risk-Controlled Recursive Self-Modification". ![arXiv](https://img.shields.io/badge/arXiv-2510.10232-B31B1B?style=flat-square)
 
